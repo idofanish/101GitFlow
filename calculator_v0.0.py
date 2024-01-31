@@ -20,7 +20,14 @@ input(operator);
  #Switch logic ends here
 #Section 1.1 
  #Addition code starts below
+ #Feature-Addition
+ function add(x,y,operator)
+ {sum=x+y;
+  Result=sum;
+  return Result
+  }
  #Addition code ends above
+
 #Section 1.2
  #Subtraction code starts below
  #Subtraction code ends above
