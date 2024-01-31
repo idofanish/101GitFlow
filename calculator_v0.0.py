@@ -30,6 +30,13 @@ input(operator);
 
 #Section 1.2
  #Subtraction code starts below
+ #Br:feature-subtract
+ #Author:Narmad
+ function subtract(x,y)
+ {difference=x-y;
+  difference=Result;
+  return Result;  
+ }
  #Subtraction code ends above
 #Section 1.3 
  #Multiplication code starts below
