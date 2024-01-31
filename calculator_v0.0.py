@@ -13,7 +13,7 @@ input(operator);
  #Addition code starts below
  #Br:Feature-Addition
  #Auth:Anish
- function add(x,y,operator)
+ function add(x,y)
  {sum=x+y;
   Result=sum;
   return Result
