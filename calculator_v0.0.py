@@ -2,6 +2,18 @@
 ##-------------------------------##
 #Calculator performs a mathematical operation of two input numbers the user is giving
 #User has to provide 3 inputs -two operands and an operator
+/*Sample method
+ #Section n.n 
+ #Func code starts below
+ #Br:Feature-Funct
+ #Auth:name
+ function func(x,y)
+ {operation=x?y;
+  Result=operation;
+  return Result
+  }
+ #Func code ends above
+ */
 declare x,y,operator,Result;
 x=0;y=0;operator='';
 print("Enter two numbers");
@@ -17,7 +29,8 @@ input(operator);
   '*': call multiply(x,y);
   '/': call division(x,y);
          }
- #Switch logic ends here
+#Switch logic ends here
+
 #Section 1.1 
  #Addition code starts below
  #Br:Feature-Addition
