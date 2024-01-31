@@ -2,7 +2,7 @@
 ##-------------------------------##
 #Calculator performs a mathematical operation of two input numbers the user is giving
 #User has to provide 3 inputs -two operands and an operator
-declare x,y,operator;
+declare x,y,operator,Result;
 x=0;y=0;operator='';
 print("Enter two numbers");
 input(x);
@@ -20,7 +20,8 @@ input(operator);
  #Switch logic ends here
 #Section 1.1 
  #Addition code starts below
- #Feature-Addition
+ #Br:Feature-Addition
+ #Auth:Anish
  function add(x,y,operator)
  {sum=x+y;
   Result=sum;
