@@ -1,6 +1,6 @@
 #Calculator application code starts
 ##-------------------------------##
-#Calculator perform a mathmatical operation of two input numbers the user is giving
+#Calculator performs a mathematical operation of two input numbers the user is giving
 #User has to provide 3 inputs -two operands and an operator
 declare x,y,operator;
 x=0;y=0;operator='';
@@ -9,6 +9,15 @@ input(x);
 input(y);
 print("Enter the operator")
 input(operator);
+#Section 1.0 IMPLEMENTED ON DEVL branch
+ #Switch logic to call the function
+ switch(operator)
+ {'+': call add(x,y);
+  '-': call subtract(x,y);
+  '*': call multiply(x,y);
+  '/': call division(x,y);
+         }
+ #Switch logic ends here
 #Section 1.1 
  #Addition code starts below
  #Addition code ends above
